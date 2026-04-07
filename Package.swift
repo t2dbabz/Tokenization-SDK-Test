@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardTokenizationSdk",
-            url: "CardTokenizationSdkCoreKit.xcframework.zip",
+            url: "https://github.com/t2dbabz/Tokenization-SDK-Test/releases/download/v1.0.0/CardTokenizationSdkCoreKit.xcframework.zip",
             checksum: "9846de61fe44a52e01a6c5c3916f62419a84a969e3c26957e696005e4913158b"
         )
     ]
