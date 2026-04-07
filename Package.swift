@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardTokenizationSdk",
-            url: "https://your-domain.com/CardTokenizationSdkCoreKit.xcframework.zip",
-            checksum: "PUT_YOUR_CHECKSUM_HERE"
+            url: "CardTokenizationSdkCoreKit.xcframework.zip",
+            checksum: "9846de61fe44a52e01a6c5c3916f62419a84a969e3c26957e696005e4913158b"
         )
     ]
 )
