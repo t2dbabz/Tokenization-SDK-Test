@@ -8,13 +8,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "CardTokenizationSdk",
-            targets: ["CardTokenizationSdk"]
+            name: "CardTokenizationSdkCoreKit",
+            targets: ["CardTokenizationSdkCoreKit"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "CardTokenizationSdk",
+            name: "CardTokenizationSdkCoreKit",
             url: "https://github.com/t2dbabz/Tokenization-SDK-Test/releases/download/v1.0.1/CardTokenizationSdkCoreKit.xcframework.zip",
             checksum: "bcbc7d2660516fc3104b17eba79c8819c9cc1d4b5f5583b055ced39b2553ab76"
         )
